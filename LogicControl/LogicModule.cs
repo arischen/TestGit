@@ -33,6 +33,7 @@ namespace LogicControl
         //edited by lei.c AutoRunActive初始值从true改为false
         public bool AutoRunActive = false;
 
+
         public int CurStatus = 0;
         public bool bInitEnvironmentFinished = false;
         public bool bInitTrayZFinished = false;
