@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemParam xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IgnoreGrating>1</IgnoreGrating>
+  <IgnoreDoor>1</IgnoreDoor>
+  <IgnoreCamera>0</IgnoreCamera>
+  <IgnoreLaser>0</IgnoreLaser>
+  <WorkPieceNum>8</WorkPieceNum>
+  <AxisNum>8</AxisNum>
+  <OutTime>20</OutTime>
+  <UnloadWaitPos>20</UnloadWaitPos>
+  <UnloadNGPos>100</UnloadNGPos>
+  <UnloadOKPos>300</UnloadOKPos>
+  <CCDMatrixA11>0.0053208262334587270</CCDMatrixA11>
+  <CCDMatrixA12>0.000015895870424441375</CCDMatrixA12>
+  <CCDMatrixA13>23.302395601742710</CCDMatrixA13>
+  <CCDMatrixA21>-0.0000019989721704107224</CCDMatrixA21>
+  <CCDMatrixA22>-0.0053315883438376848</CCDMatrixA22>
+  <CCDMatrixA23>9.2357543326840492</CCDMatrixA23>
+  <CCDMatrixA31>-0.00000054040692896812645</CCDMatrixA31>
+  <CCDMatrixA32>0.00000036164090485331131</CCDMatrixA32>
+  <CCDMatrixA33>1.0</CCDMatrixA33>
+</SystemParam>

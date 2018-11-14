@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Calib3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <calib3DStd>
+    <Calib3DSturct>
+      <PathId>0</PathId>
+      <a11>1</a11>
+      <a12>0</a12>
+      <a13>0</a13>
+      <a14>0</a14>
+      <a21>0</a21>
+      <a22>1</a22>
+      <a23>0</a23>
+      <a24>0</a24>
+      <a31>0</a31>
+      <a32>0</a32>
+      <a33>1</a33>
+      <a34>0</a34>
+      <a41>0</a41>
+      <a42>0</a42>
+      <a43>0</a43>
+      <a44>1</a44>
+    </Calib3DSturct>
+  </calib3DStd>
+</Calib3D>

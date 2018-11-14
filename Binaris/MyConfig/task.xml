@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Task xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xStartPos>10</xStartPos>
+  <xEndPos>0</xEndPos>
+  <yStartPos>50</yStartPos>
+  <yEndPos>0</yEndPos>
+  <zTrigSafe>100</zTrigSafe>
+  <zNormal>10</zNormal>
+  <rStand>59.9</rStand>
+  <rRotate>149.9</rRotate>
+  <isSaveData>false</isSaveData>
+  <isSaveCalibData>false</isSaveCalibData>
+</Task>

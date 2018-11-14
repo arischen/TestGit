@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StationCheckPara xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LaserCheck>true</LaserCheck>
+  <CCDCheck>true</CCDCheck>
+  <CCDHoleCheck>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+    <boolean>true</boolean>
+  </CCDHoleCheck>
+  <LaserHoleCheck>
+    <boolean>false</boolean>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+    <boolean>false</boolean>
+  </LaserHoleCheck>
+</StationCheckPara>

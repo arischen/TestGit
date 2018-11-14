@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PluginEventCtrl.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:PluginEventCtrl.Fakes.ShimPluginEventControl">
+            <summary>PluginEventCtrl.PluginEventControl 的填充码类型</summary>
+        </member>
+        <member name="M:PluginEventCtrl.Fakes.ShimPluginEventControl.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:PluginEventCtrl.Fakes.ShimPluginEventControl.#ctor(PluginEventCtrl.PluginEventControl)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="T:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ClearTask">
+            <summary>设置 PluginEventControl.ClearTask() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ClearWorkFlow">
+            <summary>设置 PluginEventControl.ClearWorkFlow() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ColorModelGet">
+            <summary>设置 PluginEventControl.get_ColorModel() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ColorModelSetColorRuler">
+            <summary>设置 PluginEventControl.set_ColorModel(ColorRuler value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ColorModelVisibleUpdateBoolean">
+            <summary>设置 PluginEventControl.ColorModelVisibleUpdate(Boolean bVisible) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ControlEventBind">
+            <summary>设置 PluginEventControl.ControlEventBind() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.DrapDropFileStringArray">
+            <summary>设置 PluginEventControl.DrapDropFile(String[] strFiles) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.Graph3DGet">
+            <summary>设置 PluginEventControl.get_Graph3D() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.Graph3DSetMap3D">
+            <summary>设置 PluginEventControl.set_Graph3D(Map3D value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.Graph3DViewRefreshBoolean">
+            <summary>设置 PluginEventControl.Graph3DViewRefresh(Boolean bResetPixelsPerMM) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.InsertPrimaryButtonToolStripToolStripButtonPrimaryTypeStringImage">
+            <summary>设置 PluginEventControl.InsertPrimaryButton(ToolStrip parent, ToolStripButton btn, PrimaryType eType, String PrimName, Image PrimIcon) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.IsSliceSelectedGuid">
+            <summary>设置 PluginEventControl.IsSliceSelected(Guid uSliceID) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ManagerROI">
+            <summary>设置 PluginEventControl.ManagerROI() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.OpenTaskCmdStringArray">
+            <summary>设置 PluginEventControl.OpenTaskCmd(String[] cmdArgs) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.OutputTextBoxGet">
+            <summary>设置 PluginEventControl.get_OutputTextBox() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.OutputTextBoxSetRichTextBox">
+            <summary>设置 PluginEventControl.set_OutputTextBox(RichTextBox value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.PrimBtnStatusUpdateListOfPrimaryStatus">
+            <summary>设置 PluginEventControl.PrimBtnStatusUpdate(List`1&lt;PrimaryStatus&gt; lstBtnStatus) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.PrimaryBtnContainerGet">
+            <summary>设置 PluginEventControl.get_PrimaryBtnContainer() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.PrimaryBtnContainerSetToolStrip">
+            <summary>设置 PluginEventControl.set_PrimaryBtnContainer(ToolStrip value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.PrimaryButtonClickObjectEventArgs">
+            <summary>设置 PluginEventControl.PrimaryButtonClick(Object sender, EventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ReadSliceCfgStringXmlNode">
+            <summary>设置 PluginEventControl.ReadSliceCfg(String strRoot, XmlNode RootNode) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.RefreshSliceViewBooleanGuidStringBoolean">
+            <summary>设置 PluginEventControl.RefreshSliceView(Boolean bCloseSliceView, Guid uID, String strName, Boolean bReName) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ReportViewUpdateGuid">
+            <summary>设置 PluginEventControl.ReportViewUpdate(Guid uReportId) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ResultGridGet">
+            <summary>设置 PluginEventControl.get_ResultGrid() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ResultGridSetResultDataGrid">
+            <summary>设置 PluginEventControl.set_ResultGrid(ResultDataGrid value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.RunTask">
+            <summary>设置 PluginEventControl.RunTask() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.SaveSliceCfgStringXmlDocumentXmlElement">
+            <summary>设置 PluginEventControl.SaveSliceCfg(String strPath, XmlDocument doc, XmlElement eRoot) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.ScreenImageConstructorString">
+            <summary>设置 PluginEventControl.ScreenImageConstructor(String strFileName) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.SetSliceInteractionCtrlSliceInteractionCtrl">
+            <summary>设置 PluginEventControl.SetSliceInteractionCtrl(SliceInteractionCtrl slicectrl) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.SlicePntsDataPushStringGuidStringXDPOINTArray">
+            <summary>设置 PluginEventControl.SlicePntsDataPush(String strSliceName, Guid uid, String colorName, XDPOINT[] slicePnts) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.SortPluginBtnToUIDictionaryOfPrimaryTypePluginInfo">
+            <summary>设置 PluginEventControl.SortPluginBtnToUI(Dictionary`2&lt;PrimaryType,PluginInfo&gt; Plugins) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.StartParThreadObject">
+            <summary>设置 PluginEventControl.StartParThread(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.TaskDataClearInvoke">
+            <summary>设置 PluginEventControl.TaskDataClearInvoke() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.TaskTreeUserCtrlGet">
+            <summary>设置 PluginEventControl.get_TaskTreeUserCtrl() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.TaskTreeUserCtrlSetTaskTreeView">
+            <summary>设置 PluginEventControl.set_TaskTreeUserCtrl(TaskTreeView value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.TaskUpdateBoolean">
+            <summary>设置 PluginEventControl.TaskUpdate(Boolean bAnalysis) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.UpdateData">
+            <summary>设置 PluginEventControl.UpdateData() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.UpdateMsgString">
+            <summary>设置 PluginEventControl.UpdateMsg(String msg) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.UpdatePrimSelectGuid">
+            <summary>设置 PluginEventControl.UpdatePrimSelect(Guid uIdSelect) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.UpdateResultListOfFaiValue">
+            <summary>设置 PluginEventControl.UpdateResult(List`1&lt;FaiValue&gt; result) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.UpdateRoiDeleteGuid">
+            <summary>设置 PluginEventControl.UpdateRoiDelete(Guid uIdDel) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.UpdateRoiView">
+            <summary>设置 PluginEventControl.UpdateRoiView() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.UpdateWorkFlowWorkFlowView">
+            <summary>设置 PluginEventControl.UpdateWorkFlow(WorkFlowView userCtrl) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_IsSelectedSliceAddIsSliceSelectedEventHandle">
+            <summary>设置 PluginEventControl.add_m_IsSelectedSlice(IsSliceSelectedEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_IsSelectedSliceRemoveIsSliceSelectedEventHandle">
+            <summary>设置 PluginEventControl.remove_m_IsSelectedSlice(IsSliceSelectedEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_PntsDataPushAddDataPushEventHandle">
+            <summary>设置 PluginEventControl.add_m_PntsDataPush(DataPushEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_PntsDataPushRemoveDataPushEventHandle">
+            <summary>设置 PluginEventControl.remove_m_PntsDataPush(DataPushEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_SliceConfigReadAddReadSliceXmlHandle">
+            <summary>设置 PluginEventControl.add_m_SliceConfigRead(ReadSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_SliceConfigReadRemoveReadSliceXmlHandle">
+            <summary>设置 PluginEventControl.remove_m_SliceConfigRead(ReadSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_SliceConfigSaveAddSaveSliceXmlHandle">
+            <summary>设置 PluginEventControl.add_m_SliceConfigSave(SaveSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_SliceConfigSaveRemoveSaveSliceXmlHandle">
+            <summary>设置 PluginEventControl.remove_m_SliceConfigSave(SaveSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_SliceViewRefreshAddUpdateSliceViewEventHandle">
+            <summary>设置 PluginEventControl.add_m_SliceViewRefresh(UpdateSliceViewEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_SliceViewRefreshRemoveUpdateSliceViewEventHandle">
+            <summary>设置 PluginEventControl.remove_m_SliceViewRefresh(UpdateSliceViewEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_TaskClearAddTaskClearEventHandle">
+            <summary>设置 PluginEventControl.add_m_TaskClear(TaskClearEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.m_TaskClearRemoveTaskClearEventHandle">
+            <summary>设置 PluginEventControl.remove_m_TaskClear(TaskClearEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.AllInstances.subscribeRoiPosEvent">
+            <summary>设置 PluginEventControl.subscribeRoiPosEvent() 的 填充码</summary>
+        </member>
+        <member name="M:PluginEventCtrl.Fakes.ShimPluginEventControl.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:PluginEventCtrl.Fakes.ShimPluginEventControl.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ClearTask">
+            <summary>设置 PluginEventControl.ClearTask() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ClearWorkFlow">
+            <summary>设置 PluginEventControl.ClearWorkFlow() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ColorModelGet">
+            <summary>设置 PluginEventControl.get_ColorModel() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ColorModelSetColorRuler">
+            <summary>设置 PluginEventControl.set_ColorModel(ColorRuler value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ColorModelVisibleUpdateBoolean">
+            <summary>设置 PluginEventControl.ColorModelVisibleUpdate(Boolean bVisible) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.Constructor">
+            <summary>设置 PluginEventControl.PluginEventControl() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ControlEventBind">
+            <summary>设置 PluginEventControl.ControlEventBind() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.DrapDropFileStringArray">
+            <summary>设置 PluginEventControl.DrapDropFile(String[] strFiles) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.Graph3DGet">
+            <summary>设置 PluginEventControl.get_Graph3D() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.Graph3DSetMap3D">
+            <summary>设置 PluginEventControl.set_Graph3D(Map3D value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.Graph3DViewRefreshBoolean">
+            <summary>设置 PluginEventControl.Graph3DViewRefresh(Boolean bResetPixelsPerMM) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.InsertPrimaryButtonToolStripToolStripButtonPrimaryTypeStringImage">
+            <summary>设置 PluginEventControl.InsertPrimaryButton(ToolStrip parent, ToolStripButton btn, PrimaryType eType, String PrimName, Image PrimIcon) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.IsSliceSelectedGuid">
+            <summary>设置 PluginEventControl.IsSliceSelected(Guid uSliceID) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ManagerROI">
+            <summary>设置 PluginEventControl.ManagerROI() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.OpenTaskCmdStringArray">
+            <summary>设置 PluginEventControl.OpenTaskCmd(String[] cmdArgs) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.OutputTextBoxGet">
+            <summary>设置 PluginEventControl.get_OutputTextBox() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.OutputTextBoxSetRichTextBox">
+            <summary>设置 PluginEventControl.set_OutputTextBox(RichTextBox value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.PrimBtnStatusUpdateListOfPrimaryStatus">
+            <summary>设置 PluginEventControl.PrimBtnStatusUpdate(List`1&lt;PrimaryStatus&gt; lstBtnStatus) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.PrimaryBtnContainerGet">
+            <summary>设置 PluginEventControl.get_PrimaryBtnContainer() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.PrimaryBtnContainerSetToolStrip">
+            <summary>设置 PluginEventControl.set_PrimaryBtnContainer(ToolStrip value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.PrimaryButtonClickObjectEventArgs">
+            <summary>设置 PluginEventControl.PrimaryButtonClick(Object sender, EventArgs e) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ReadSliceCfgStringXmlNode">
+            <summary>设置 PluginEventControl.ReadSliceCfg(String strRoot, XmlNode RootNode) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.RefreshSliceViewBooleanGuidStringBoolean">
+            <summary>设置 PluginEventControl.RefreshSliceView(Boolean bCloseSliceView, Guid uID, String strName, Boolean bReName) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ReportViewUpdateGuid">
+            <summary>设置 PluginEventControl.ReportViewUpdate(Guid uReportId) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ResultGridGet">
+            <summary>设置 PluginEventControl.get_ResultGrid() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ResultGridSetResultDataGrid">
+            <summary>设置 PluginEventControl.set_ResultGrid(ResultDataGrid value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.RunTask">
+            <summary>设置 PluginEventControl.RunTask() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.SaveSliceCfgStringXmlDocumentXmlElement">
+            <summary>设置 PluginEventControl.SaveSliceCfg(String strPath, XmlDocument doc, XmlElement eRoot) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.ScreenImageConstructorString">
+            <summary>设置 PluginEventControl.ScreenImageConstructor(String strFileName) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.SetSliceInteractionCtrlSliceInteractionCtrl">
+            <summary>设置 PluginEventControl.SetSliceInteractionCtrl(SliceInteractionCtrl slicectrl) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.SlicePntsDataPushStringGuidStringXDPOINTArray">
+            <summary>设置 PluginEventControl.SlicePntsDataPush(String strSliceName, Guid uid, String colorName, XDPOINT[] slicePnts) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.SortPluginBtnToUIDictionaryOfPrimaryTypePluginInfo">
+            <summary>设置 PluginEventControl.SortPluginBtnToUI(Dictionary`2&lt;PrimaryType,PluginInfo&gt; Plugins) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.StartParThreadObject">
+            <summary>设置 PluginEventControl.StartParThread(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.TaskDataClearInvoke">
+            <summary>设置 PluginEventControl.TaskDataClearInvoke() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.TaskTreeUserCtrlGet">
+            <summary>设置 PluginEventControl.get_TaskTreeUserCtrl() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.TaskTreeUserCtrlSetTaskTreeView">
+            <summary>设置 PluginEventControl.set_TaskTreeUserCtrl(TaskTreeView value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.TaskUpdateBoolean">
+            <summary>设置 PluginEventControl.TaskUpdate(Boolean bAnalysis) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.UpdateData">
+            <summary>设置 PluginEventControl.UpdateData() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.UpdateMsgString">
+            <summary>设置 PluginEventControl.UpdateMsg(String msg) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.UpdatePrimSelectGuid">
+            <summary>设置 PluginEventControl.UpdatePrimSelect(Guid uIdSelect) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.UpdateResultListOfFaiValue">
+            <summary>设置 PluginEventControl.UpdateResult(List`1&lt;FaiValue&gt; result) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.UpdateRoiDeleteGuid">
+            <summary>设置 PluginEventControl.UpdateRoiDelete(Guid uIdDel) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.UpdateRoiView">
+            <summary>设置 PluginEventControl.UpdateRoiView() 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.UpdateWorkFlowWorkFlowView">
+            <summary>设置 PluginEventControl.UpdateWorkFlow(WorkFlowView userCtrl) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_IsSelectedSliceAddIsSliceSelectedEventHandle">
+            <summary>设置 PluginEventControl.add_m_IsSelectedSlice(IsSliceSelectedEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_IsSelectedSliceRemoveIsSliceSelectedEventHandle">
+            <summary>设置 PluginEventControl.remove_m_IsSelectedSlice(IsSliceSelectedEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_PntsDataPushAddDataPushEventHandle">
+            <summary>设置 PluginEventControl.add_m_PntsDataPush(DataPushEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_PntsDataPushRemoveDataPushEventHandle">
+            <summary>设置 PluginEventControl.remove_m_PntsDataPush(DataPushEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_SliceConfigReadAddReadSliceXmlHandle">
+            <summary>设置 PluginEventControl.add_m_SliceConfigRead(ReadSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_SliceConfigReadRemoveReadSliceXmlHandle">
+            <summary>设置 PluginEventControl.remove_m_SliceConfigRead(ReadSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_SliceConfigSaveAddSaveSliceXmlHandle">
+            <summary>设置 PluginEventControl.add_m_SliceConfigSave(SaveSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_SliceConfigSaveRemoveSaveSliceXmlHandle">
+            <summary>设置 PluginEventControl.remove_m_SliceConfigSave(SaveSliceXmlHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_SliceViewRefreshAddUpdateSliceViewEventHandle">
+            <summary>设置 PluginEventControl.add_m_SliceViewRefresh(UpdateSliceViewEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_SliceViewRefreshRemoveUpdateSliceViewEventHandle">
+            <summary>设置 PluginEventControl.remove_m_SliceViewRefresh(UpdateSliceViewEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_TaskClearAddTaskClearEventHandle">
+            <summary>设置 PluginEventControl.add_m_TaskClear(TaskClearEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.m_TaskClearRemoveTaskClearEventHandle">
+            <summary>设置 PluginEventControl.remove_m_TaskClear(TaskClearEventHandle value) 的 填充码</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.ShimPluginEventControl.subscribeRoiPosEvent">
+            <summary>设置 PluginEventControl.subscribeRoiPosEvent() 的 填充码</summary>
+        </member>
+        <member name="T:PluginEventCtrl.Fakes.StubPluginEventControl">
+            <summary>PluginEventCtrl.PluginEventControl 的存根类型</summary>
+        </member>
+        <member name="M:PluginEventCtrl.Fakes.StubPluginEventControl.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.StubPluginEventControl.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="M:PluginEventCtrl.Fakes.StubPluginEventControl.InitializeStub">
+            <summary>初始化 type StubPluginEventControl 的新实例</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.StubPluginEventControl.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:PluginEventCtrl.Fakes.StubPluginEventControl.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+    </members>
+</doc>

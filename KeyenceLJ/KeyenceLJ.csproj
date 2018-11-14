@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2BF2BDA-D4A3-4DAE-A1B7-012940D57BF1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KeyenceLJ</RootNamespace>
+    <AssemblyName>KeyenceLJ</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonStruct, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\CommonStruct.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLJ.Designer.cs">
+      <DependentUpon>FormLJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyenceControl.cs" />
+    <Compile Include="KeyenceForm\GetStorageDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyenceForm\GetStorageDataForm.Designer.cs">
+      <DependentUpon>GetStorageDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyenceForm\GetStorageStatusForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyenceForm\GetStorageStatusForm.Designer.cs">
+      <DependentUpon>GetStorageStatusForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyenceForm\OpenEthernetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyenceForm\OpenEthernetForm.Designer.cs">
+      <DependentUpon>OpenEthernetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyenceForm\ProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyenceForm\ProfileForm.Designer.cs">
+      <DependentUpon>ProfileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyenceForm\ProgressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyenceForm\ProgressForm.Designer.cs">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyenceForm\SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyenceForm\SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyenceLib\DataExporter.cs" />
+    <Compile Include="KeyenceLib\Define.cs" />
+    <Compile Include="KeyenceLib\DeviceData.cs" />
+    <Compile Include="KeyenceLib\MeasureData.cs" />
+    <Compile Include="KeyenceLib\NativeMethods.cs" />
+    <Compile Include="KeyenceLib\PinnedObject.cs" />
+    <Compile Include="KeyenceLib\ProfileData.cs" />
+    <Compile Include="KeyenceLib\ThreadSafeBuffer.cs" />
+    <Compile Include="KeyenceLib\Utility.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormLJ.resx">
+      <DependentUpon>FormLJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyenceForm\GetStorageDataForm.resx">
+      <DependentUpon>GetStorageDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyenceForm\GetStorageStatusForm.resx">
+      <DependentUpon>GetStorageStatusForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyenceForm\OpenEthernetForm.resx">
+      <DependentUpon>OpenEthernetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyenceForm\ProfileForm.resx">
+      <DependentUpon>ProfileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyenceForm\ProgressForm.resx">
+      <DependentUpon>ProgressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyenceForm\SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CsvHelper\CsvHelper.csproj">
+      <Project>{bf3a9865-85bb-4890-8b64-ceac97d38a54}</Project>
+      <Name>CsvHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

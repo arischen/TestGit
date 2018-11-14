@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GLBox3DConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="Chuang.Li">
+  <AxisColorX>Red</AxisColorX>
+  <AxisColorY>Green</AxisColorY>
+  <AxisColorZ>Blue</AxisColorZ>
+  <GridLineColorXY>CadetBlue</GridLineColorXY>
+  <GridLineColorXZ>Black</GridLineColorXZ>
+  <GridLineColorYZ>DarkKhaki</GridLineColorYZ>
+  <GridLineWidth>1</GridLineWidth>
+  <GridCellInterval>1</GridCellInterval>
+  <GridCellCount>10</GridCellCount>
+  <IsUseTexture>false</IsUseTexture>
+  <BackColor>White</BackColor>
+  <RampColor>Gray</RampColor>
+  <PathTexture>E:\规范文档\图标\大气背景\湛蓝的天空背景图.jpg</PathTexture>
+  <EnableMouseEvents>false</EnableMouseEvents>
+</GLBox3DConfig>

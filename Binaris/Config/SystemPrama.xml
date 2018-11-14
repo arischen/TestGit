@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemParam xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IgnoreBarcode>0</IgnoreBarcode>
+  <IgnoreGrating>1</IgnoreGrating>
+  <IgnoreDoor>1</IgnoreDoor>
+  <IgnoreCCD>0</IgnoreCCD>
+  <MotionRows>2</MotionRows>
+  <MotionCols>2</MotionCols>
+  <RowDistance>30</RowDistance>
+  <ColDistance>30</ColDistance>
+  <CapDelay>0.7</CapDelay>
+  <OutTime>20</OutTime>
+  <RefX />
+  <RefY />
+  <RefR />
+  <MotionPoint>15</MotionPoint>
+  <GTDelay>0.7</GTDelay>
+</SystemParam>

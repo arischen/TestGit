@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <iList>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+    <int>0</int>
+  </iList>
+  <dList>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+    <double>0</double>
+  </dList>
+</Test>
